@@ -1,0 +1,9 @@
+﻿<columns units="px">
+  <column name="Cluster" type="Number" format="G" nulltext="-" alignment="Left" />
+  <column name="City" type="Text" />
+  <column name="Customer_type" type="Text" />
+  <column name="Gender" type="Text" />
+  <column name="Product_line" type="Text" />
+  <column name="Total" type="Text" />
+  <column name="Rating" type="Text" />
+</columns>

@@ -1,0 +1,118 @@
+[[1]]
+        City    Customer_type    Gender                   Product_line     Total            Rating     
+ Mandalay : 5   Member:77     Female:76   Electronic accessories: 8    Min.   : 19.25   Min.   :4.100  
+ Naypyitaw: 7   Normal: 9     Male  :10   Fashion accessories   : 5    1st Qu.:125.57   1st Qu.:4.625  
+ Yangon   :74                             Food and beverages    : 5    Median :270.04   Median :5.500  
+                                          Health and beauty     :12    Mean   :319.85   Mean   :5.790  
+                                          Home and lifestyle    :47    3rd Qu.:474.40   3rd Qu.:6.475  
+                                          Sports and travel     : 9    Max.   :951.83   Max.   :9.800  
+
+
+[[2]]
+        City    Customer_type    Gender                   Product_line     Total            Rating     
+ Mandalay : 7   Member: 0     Female:76   Electronic accessories:10    Min.   :  23.5   Min.   :4.000  
+ Naypyitaw:69   Normal:82     Male  : 6   Fashion accessories   : 6    1st Qu.: 152.2   1st Qu.:6.950  
+ Yangon   : 6                             Food and beverages    :34    Median : 292.3   Median :8.350  
+                                          Health and beauty     :12    Mean   : 348.8   Mean   :7.904  
+                                          Home and lifestyle    : 6    3rd Qu.: 511.5   3rd Qu.:9.200  
+                                          Sports and travel     :14    Max.   :1002.1   Max.   :9.900  
+
+
+[[3]]
+        City    Customer_type    Gender                   Product_line     Total             Rating      
+ Mandalay : 7   Member: 4     Female: 5   Electronic accessories: 4    Min.   :  19.19   Min.   : 4.100  
+ Naypyitaw: 5   Normal:78     Male  :77   Fashion accessories   : 4    1st Qu.: 129.76   1st Qu.: 7.000  
+ Yangon   :70                             Food and beverages    :16    Median : 235.45   Median : 8.350  
+                                          Health and beauty     :37    Mean   : 298.35   Mean   : 7.960  
+                                          Home and lifestyle    :15    3rd Qu.: 431.69   3rd Qu.: 9.275  
+                                          Sports and travel     : 6    Max.   :1039.29   Max.   :10.000  
+
+
+[[4]]
+        City    Customer_type    Gender                   Product_line     Total            Rating      
+ Mandalay :81   Member: 2     Female: 3   Electronic accessories: 9    Min.   : 33.94   Min.   : 4.100  
+ Naypyitaw: 3   Normal:95     Male  :94   Fashion accessories   :11    1st Qu.:133.35   1st Qu.: 5.800  
+ Yangon   :13                             Food and beverages    :10    Median :208.43   Median : 6.700  
+                                          Health and beauty     : 7    Mean   :311.74   Mean   : 6.778  
+                                          Home and lifestyle    :19    3rd Qu.:457.38   3rd Qu.: 7.800  
+                                          Sports and travel     :41    Max.   :937.82   Max.   :10.000  
+
+
+[[5]]
+        City    Customer_type    Gender                   Product_line     Total             Rating     
+ Mandalay : 2   Member: 9     Female: 5   Electronic accessories:38    Min.   :  13.42   Min.   :4.100  
+ Naypyitaw:75   Normal:74     Male  :78   Fashion accessories   :17    1st Qu.: 109.08   1st Qu.:5.150  
+ Yangon   : 6                             Food and beverages    : 9    Median : 212.73   Median :6.100  
+                                          Health and beauty     : 8    Mean   : 294.47   Mean   :6.325  
+                                          Home and lifestyle    :11    3rd Qu.: 408.61   3rd Qu.:7.050  
+                                          Sports and travel     : 0    Max.   :1023.75   Max.   :9.900  
+
+
+[[6]]
+        City    Customer_type    Gender                   Product_line     Total             Rating     
+ Mandalay :14   Member:107    Female:99   Electronic accessories: 9    Min.   :  13.17   Min.   :4.000  
+ Naypyitaw:88   Normal:  0    Male  : 8   Fashion accessories   :19    1st Qu.: 173.88   1st Qu.:5.600  
+ Yangon   : 5                             Food and beverages    :50    Median : 309.36   Median :7.400  
+                                          Health and beauty     : 7    Mean   : 385.91   Mean   :7.037  
+                                          Home and lifestyle    :12    3rd Qu.: 574.26   3rd Qu.:8.400  
+                                          Sports and travel     :10    Max.   :1042.65   Max.   :9.900  
+ 
+
+[[7]]
+        City    Customer_type    Gender                   Product_line     Total            Rating     
+ Mandalay :71   Member:81     Female:10   Electronic accessories: 6    Min.   : 16.20   Min.   :4.000  
+ Naypyitaw: 6   Normal: 2     Male  :73   Fashion accessories   :40    1st Qu.: 93.52   1st Qu.:4.950  
+ Yangon   : 6                             Food and beverages    :11    Median :202.34   Median :5.700  
+                                          Health and beauty     : 9    Mean   :295.23   Mean   :5.822  
+                                          Home and lifestyle    : 9    3rd Qu.:430.08   3rd Qu.:6.550  
+                                          Sports and travel     : 8    Max.   :944.62   Max.   :9.400  
+  
+
+[[8]]
+        City    Customer_type    Gender                   Product_line     Total            Rating     
+ Mandalay :11   Member: 7     Female:81   Electronic accessories: 8    Min.   : 12.69   Min.   :4.000  
+ Naypyitaw:10   Normal:83     Male  : 9   Fashion accessories   :53    1st Qu.:141.03   1st Qu.:6.050  
+ Yangon   :69                             Food and beverages    : 7    Median :288.06   Median :7.100  
+                                          Health and beauty     : 4    Mean   :313.00   Mean   :6.994  
+                                          Home and lifestyle    : 7    3rd Qu.:427.63   3rd Qu.:7.800  
+                                          Sports and travel     :11    Max.   :852.71   Max.   :9.900  
+
+
+[[9]]
+        City    Customer_type    Gender                   Product_line     Total            Rating      
+ Mandalay :56   Member:66     Female:68   Electronic accessories: 8    Min.   : 20.11   Min.   : 4.100  
+ Naypyitaw: 5   Normal: 4     Male  : 2   Fashion accessories   : 6    1st Qu.:100.06   1st Qu.: 6.800  
+ Yangon   : 9                             Food and beverages    : 4    Median :182.05   Median : 8.000  
+                                          Health and beauty     : 7    Mean   :283.40   Mean   : 7.814  
+                                          Home and lifestyle    : 7    3rd Qu.:432.25   3rd Qu.: 9.250  
+                                          Sports and travel     :38    Max.   :921.19   Max.   :10.000  
+
+
+[[10]]
+        City    Customer_type    Gender                   Product_line     Total             Rating      
+ Mandalay :61   Member: 6     Female:70   Electronic accessories:35    Min.   :  18.64   Min.   : 4.000  
+ Naypyitaw: 4   Normal:67     Male  : 3   Fashion accessories   : 6    1st Qu.: 141.75   1st Qu.: 4.800  
+ Yangon   : 8                             Food and beverages    : 4    Median : 356.33   Median : 5.600  
+                                          Health and beauty     :13    Mean   : 389.64   Mean   : 6.001  
+                                          Home and lifestyle    :10    3rd Qu.: 554.29   3rd Qu.: 6.700  
+                                          Sports and travel     : 5    Max.   :1022.49   Max.   :10.000  
+
+
+[[11]]
+        City    Customer_type    Gender                   Product_line     Total            Rating     
+ Mandalay : 7   Member:77     Female: 4   Electronic accessories:33    Min.   : 20.68   Min.   :4.000  
+ Naypyitaw: 0   Normal: 3     Male  :76   Fashion accessories   : 4    1st Qu.:134.10   1st Qu.:7.000  
+ Yangon   :73                             Food and beverages    :19    Median :218.14   Median :7.800  
+                                          Health and beauty     : 5    Mean   :304.22   Mean   :7.650  
+                                          Home and lifestyle    : 8    3rd Qu.:473.19   3rd Qu.:8.825  
+                                          Sports and travel     :11    Max.   :931.03   Max.   :9.900  
+
+
+[[12]]
+        City    Customer_type    Gender                   Product_line     Total            Rating     
+ Mandalay :10   Member:65     Female: 4   Electronic accessories: 2    Min.   : 10.68   Min.   :4.200  
+ Naypyitaw:56   Normal: 2     Male  :63   Fashion accessories   : 7    1st Qu.:125.85   1st Qu.:6.900  
+ Yangon   : 1                             Food and beverages    : 5    Median :270.02   Median :8.400  
+                                          Health and beauty     :31    Mean   :315.33   Mean   :7.891  
+                                          Home and lifestyle    : 9    3rd Qu.:442.14   3rd Qu.:9.200  
+                                          Sports and travel     :13    Max.   :950.25   Max.   :9.900  
