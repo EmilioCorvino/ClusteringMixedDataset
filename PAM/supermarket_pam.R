@@ -9,6 +9,7 @@ library("readr")
 library("cluster")
 library("ggplot2")
 library("fpc")
+library("clustMixType")
 
 set.seed(42)
 dataset <- read_csv("supermarket_clean.csv")
@@ -48,8 +49,7 @@ cat("\n\n")
 # Clusters' medoids
 cat("Cluster medoids:\n")
 medoids <- frame[pam_fit$pamobject$medoids, ]
-medoids %>%
-  mutate(Cluster = pam_fit$pamobject$clustering)
+medoids
 cat("\n\n")
 
 # t-SNE visualization
@@ -63,4 +63,9 @@ tsne_data <- tsne_obj$Y %>%
 
 ggplot(aes(x = X, y = Y), data = tsne_data) +
   geom_point(aes(color = cluster))
+
+# Building object for clprofiles function
+pam_profiles$cluster <- pam_fit$pamobject$clustering
+pam_profiles$size <- pam_fit$pamobject$clusinfo[1:12, 1]
+clprofiles(pam_profiles, frame)
 

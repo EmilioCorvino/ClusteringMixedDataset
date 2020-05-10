@@ -1,13 +1,13 @@
-﻿Cluster,City,Customer_type,Gender,Product_line,Total,Rating
-1,Yangon,Member,Female,Home and lifestyle,235.872,5.9
-2,Naypyitaw,Normal,Female,Food and beverages,362.712,8.3
-3,Yangon,Normal,Male,Health and beauty,244.23,8.4
-4,Mandalay,Normal,Male,Sports and travel,198.639,7
-5,Naypyitaw,Normal,Male,Electronic accessories,204.6975,6
-6,Naypyitaw,Member,Female,Food and beverages,270.2595,7.4
-7,Mandalay,Member,Male,Fashion accessories,115.185,5.3
-8,Yangon,Normal,Female,Fashion accessories,312.8895,6.8
-9,Mandalay,Member,Female,Sports and travel,136.143,8
-10,Mandalay,Normal,Female,Electronic accessories,356.328,5.7
-11,Yangon,Member,Male,Electronic accessories,203.175,7.8
-12,Naypyitaw,Member,Male,Health and beauty,185.094,8.4
+"","City","Customer_type","Gender","Product_line","Total","Rating"
+"523","Yangon","Member","Female","Home and lifestyle",235.872,5.9
+"161","Naypyitaw","Normal","Female","Food and beverages",362.712,8.3
+"982","Yangon","Normal","Male","Health and beauty",244.23,8.4
+"585","Mandalay","Normal","Male","Sports and travel",198.639,7
+"292","Naypyitaw","Normal","Male","Electronic accessories",204.6975,6
+"724","Naypyitaw","Member","Female","Food and beverages",270.2595,7.4
+"117","Mandalay","Member","Male","Fashion accessories",115.185,5.3
+"956","Yangon","Normal","Female","Fashion accessories",312.8895,6.8
+"687","Mandalay","Member","Female","Sports and travel",136.143,8
+"563","Mandalay","Normal","Female","Electronic accessories",356.328,5.7
+"370","Yangon","Member","Male","Electronic accessories",203.175,7.8
+"320","Naypyitaw","Member","Male","Health and beauty",185.094,8.4
