@@ -32,7 +32,12 @@ max_clusters <- 24
 validation <- silhouette_kproto(data = frame, k = min_clusters:max_clusters)
 
 # Perform the algorithm with the optimal number of clusters
+start_time <- Sys.time()
 kpres <- kproto(x = frame, k = validation$k_opt)
+end_time <- Sys.time() # Ending time
+time_elapsed <- (end_time-start_time)
+cat("\n")
+time_elapsed
 
 # Display results and plot them
 cat("\n Displaying summary for k-prototypes clustering:\n")

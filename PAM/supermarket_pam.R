@@ -29,12 +29,17 @@ df_clean <- df %>%
 frame <- as.data.frame(df_clean)
 
 # Calculate gower distance
+start_time <- Sys.time() # Starting time
 gower_dist <- daisy(frame, metric = "gower")
 summary(gower_dist)
 
 # Applying partitioning around medoids algorithm. pamk() automatically finds the optimal number of clusters in a range
 # using silhouette width
 pam_fit <- pamk(gower_dist, 12, diss = TRUE)
+end_time <- Sys.time() # Ending time
+time_elapsed <- (end_time-start_time)
+cat("\n")
+time_elapsed
 cat("\n\n")
 
 # Summary visualization
@@ -65,6 +70,7 @@ ggplot(aes(x = X, y = Y), data = tsne_data) +
   geom_point(aes(color = cluster))
 
 # Building object for clprofiles function
+pam_profiles <- pam_fit
 pam_profiles$cluster <- pam_fit$pamobject$clustering
 pam_profiles$size <- pam_fit$pamobject$clusinfo[1:12, 1]
 clprofiles(pam_profiles, frame)
