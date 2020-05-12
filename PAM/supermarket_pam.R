@@ -34,8 +34,8 @@ gower_dist <- daisy(frame, metric = "gower")
 summary(gower_dist)
 
 # Applying partitioning around medoids algorithm. pamk() automatically finds the optimal number of clusters in a range
-# using silhouette width
-pam_fit <- pamk(gower_dist, 12, diss = TRUE)
+# using silhouette width. The optimal cluster value is saved in pam_fit$nc.
+pam_fit <- pamk(gower_dist, 2:24, diss = TRUE)
 end_time <- Sys.time() # Ending time
 time_elapsed <- (end_time-start_time)
 cat("\n")
@@ -72,6 +72,5 @@ ggplot(aes(x = X, y = Y), data = tsne_data) +
 # Building object for clprofiles function
 pam_profiles <- pam_fit
 pam_profiles$cluster <- pam_fit$pamobject$clustering
-pam_profiles$size <- pam_fit$pamobject$clusinfo[1:12, 1]
+pam_profiles$size <- pam_fit$pamobject$clusinfo[1:pam_fit$nc, 1]
 clprofiles(pam_profiles, frame)
-

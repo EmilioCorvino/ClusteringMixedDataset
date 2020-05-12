@@ -36,4 +36,3 @@ validation <- silhouette_kproto(data = frame, k = min_clusters:max_clusters)
 
 # Plot silhouette width (higher is better)
 plot(min_clusters:max_clusters, validation$indices, xlab = "Number of clusters", ylab = "Silhouette width", type = "b")
-
