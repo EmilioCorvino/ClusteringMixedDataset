@@ -12,7 +12,7 @@ library("ISLR")
 library("dplyr")
 library("readr")
 
-set.seed(99)
+set.seed(42)
 dataset <- read_csv("supermarket_clean.csv")
 df <- as.data.frame(dataset)
 
