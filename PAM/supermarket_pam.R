@@ -6,7 +6,6 @@
 library("Rtsne")
 library("dplyr")
 library("readr")
-library("cluster")
 library("ggplot2")
 library("fpc")
 library("clustMixType")

@@ -5,10 +5,7 @@
 
 library("Rtsne")
 library("ggplot2")
-library("ggplotgui")
-library("readxl")
 library("clustMixType")
-library("ISLR")
 library("dplyr")
 library("readr")
 
